@@ -24,8 +24,6 @@ switch (true) {
     case xpHeroi >= 9001 && xpHeroi <= 10000:
       nivel = "Imortal";
       break;
-    default:
-      nivel = "Radiante";
   }
 
 console.log("O herói do nome " + nomeHeroi + "está no nível de " + nivel )
