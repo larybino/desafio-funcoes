@@ -25,8 +25,6 @@ function classificador(vitorias){
         case vitorias >= 101:
             nivel = "Imortal";
             break;
-        default:
-            nivel = "Radiante";
     }
     return nivel
 }
